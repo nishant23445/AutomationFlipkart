@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+ <!--  <groups>
+                <run>
+                    <exclude name="Accandlogin"/>
+                </run>
+            </groups>-->
+    <classes>
+      <class name="com.Flipkart_selenium_tests.Home_test"/>
+      <class name="com.Flipkart_selenium_tests.MoreOptions_test"/>
+      <class name="com.Flipkart_selenium_tests.Account_test"/>
+      <class name="com.Flipkart_selenium_tests.Flights_test"/>
+      <class name="com.Flipkart_selenium_tests.Base_Test"/>
+      <class name="com.Flipkart_selenium_tests.Login_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

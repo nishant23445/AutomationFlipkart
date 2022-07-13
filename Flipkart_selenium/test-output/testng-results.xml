@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="31" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T03:24:33 IST" name="Suite" finished-at="2022-07-14T03:27:52 IST" duration-ms="198513">
+    <groups>
+      <group name="flight">
+        <method signature="Flights_test.FlightTravel()[pri:20, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" name="FlightTravel" class="com.Flipkart_selenium_tests.Flights_test"/>
+      </group> <!-- flight -->
+      <group name="more">
+        <method signature="MoreOptions_test.NotificationPreference()[pri:18, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" name="NotificationPreference" class="com.Flipkart_selenium_tests.MoreOptions_test"/>
+        <method signature="MoreOptions_test.customercare()[pri:19, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" name="customercare" class="com.Flipkart_selenium_tests.MoreOptions_test"/>
+      </group> <!-- more -->
+      <group name="Accandlogin">
+        <method signature="Account_test.Grocery()[pri:17, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" name="Grocery" class="com.Flipkart_selenium_tests.Account_test"/>
+        <method signature="Account_test.MobileButton()[pri:15, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" name="MobileButton" class="com.Flipkart_selenium_tests.Account_test"/>
+        <method signature="Account_test.Mychats()[pri:14, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" name="Mychats" class="com.Flipkart_selenium_tests.Account_test"/>
+        <method signature="Account_test.SuperCoin()[pri:16, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" name="SuperCoin" class="com.Flipkart_selenium_tests.Account_test"/>
+        <method signature="Account_test.Wishlist()[pri:13, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" name="Wishlist" class="com.Flipkart_selenium_tests.Account_test"/>
+        <method signature="Home_test.Cart()[pri:11, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Cart" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.Payment()[pri:12, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Payment" class="com.Flipkart_selenium_tests.Home_test"/>
+      </group> <!-- Accandlogin -->
+      <group name="login">
+        <method signature="Home_test.Cart()[pri:11, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Cart" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.Logo()[pri:4, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Logo" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.Payment()[pri:12, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Payment" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.ship()[pri:5, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="ship" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Login_test.Invalid_Login()[pri:1, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" name="Invalid_Login" class="com.Flipkart_selenium_tests.Login_test"/>
+        <method signature="Login_test.Login()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" name="Login" class="com.Flipkart_selenium_tests.Login_test"/>
+        <method signature="Login_test.Logout()[pri:3, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" name="Logout" class="com.Flipkart_selenium_tests.Login_test"/>
+        <method signature="Login_test.Otp_Login_button()[pri:2, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" name="Otp_Login_button" class="com.Flipkart_selenium_tests.Login_test"/>
+      </group> <!-- login -->
+      <group name="Home">
+        <method signature="Home_test.Logo()[pri:4, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Logo" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.Seller_Register()[pri:10, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="Seller_Register" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.cross_login_box()[pri:6, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="cross_login_box" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.ship()[pri:5, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="ship" class="com.Flipkart_selenium_tests.Home_test"/>
+        <method signature="Home_test.wholesale()[pri:9, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" name="wholesale" class="com.Flipkart_selenium_tests.Home_test"/>
+      </group> <!-- Home -->
+    </groups>
+    <test started-at="2022-07-14T03:24:33 IST" name="Test" finished-at="2022-07-14T03:27:52 IST" duration-ms="198513">
+      <class name="com.Flipkart_selenium_tests.Home_test">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:33 IST" name="setExtent" finished-at="2022-07-14T03:24:33 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:33 IST" name="initializeDriver" finished-at="2022-07-14T03:24:35 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:35 IST" name="openUrl" finished-at="2022-07-14T03:24:39 IST" duration-ms="3135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:39 IST" name="startTest" finished-at="2022-07-14T03:24:39 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.Logo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Logo()[pri:4, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:39 IST" name="Logo" finished-at="2022-07-14T03:24:39 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:39 IST" name="ResultTest" finished-at="2022-07-14T03:24:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logo status=SUCCESS method=Home_test.Logo()[pri:4, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:39 IST" name="testClose" finished-at="2022-07-14T03:24:40 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:40 IST" name="initializeDriver" finished-at="2022-07-14T03:24:41 IST" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:41 IST" name="openUrl" finished-at="2022-07-14T03:24:43 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:43 IST" name="startTest" finished-at="2022-07-14T03:24:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.ship() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ship()[pri:5, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:43 IST" name="ship" finished-at="2022-07-14T03:24:47 IST" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ship -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:47 IST" name="ResultTest" finished-at="2022-07-14T03:24:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ship status=SUCCESS method=Home_test.ship()[pri:5, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:47 IST" name="testClose" finished-at="2022-07-14T03:24:48 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:48 IST" name="initializeDriver" finished-at="2022-07-14T03:24:49 IST" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:49 IST" name="openUrl" finished-at="2022-07-14T03:24:51 IST" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:51 IST" name="startTest" finished-at="2022-07-14T03:24:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.cross_login_box()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="cross_login_box()[pri:6, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:51 IST" name="cross_login_box" finished-at="2022-07-14T03:24:51 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross_login_box -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:51 IST" name="ResultTest" finished-at="2022-07-14T03:24:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cross_login_box status=SUCCESS method=Home_test.cross_login_box()[pri:6, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:51 IST" name="testClose" finished-at="2022-07-14T03:24:52 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:52 IST" name="initializeDriver" finished-at="2022-07-14T03:24:53 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:53 IST" name="openUrl" finished-at="2022-07-14T03:24:56 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:56 IST" name="startTest" finished-at="2022-07-14T03:24:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.search()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="search()[pri:7, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:56 IST" name="search" finished-at="2022-07-14T03:24:57 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:57 IST" name="ResultTest" finished-at="2022-07-14T03:24:57 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=Home_test.search()[pri:7, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:57 IST" name="testClose" finished-at="2022-07-14T03:24:57 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:57 IST" name="initializeDriver" finished-at="2022-07-14T03:24:59 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:24:59 IST" name="openUrl" finished-at="2022-07-14T03:25:01 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:01 IST" name="startTest" finished-at="2022-07-14T03:25:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.sort_by_popularity() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="sort_by_popularity()[pri:8, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:01 IST" name="sort_by_popularity" finished-at="2022-07-14T03:25:06 IST" duration-ms="4648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_by_popularity -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:06 IST" name="testClose" finished-at="2022-07-14T03:25:07 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:06 IST" name="ResultTest" finished-at="2022-07-14T03:25:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sort_by_popularity status=SUCCESS method=Home_test.sort_by_popularity()[pri:8, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:07 IST" name="initializeDriver" finished-at="2022-07-14T03:25:08 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:08 IST" name="openUrl" finished-at="2022-07-14T03:25:10 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="wholesale()[pri:9, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:10 IST" name="wholesale" finished-at="2022-07-14T03:25:14 IST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wholesale -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:10 IST" name="startTest" finished-at="2022-07-14T03:25:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.wholesale() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:14 IST" name="ResultTest" finished-at="2022-07-14T03:25:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wholesale status=SUCCESS method=Home_test.wholesale()[pri:9, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:14 IST" name="testClose" finished-at="2022-07-14T03:25:15 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:15 IST" name="initializeDriver" finished-at="2022-07-14T03:25:16 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:16 IST" name="openUrl" finished-at="2022-07-14T03:25:19 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:19 IST" name="startTest" finished-at="2022-07-14T03:25:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.Seller_Register() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Seller_Register()[pri:10, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:19 IST" name="Seller_Register" finished-at="2022-07-14T03:25:26 IST" duration-ms="7018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Seller_Register -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:26 IST" name="ResultTest" finished-at="2022-07-14T03:25:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Seller_Register status=SUCCESS method=Home_test.Seller_Register()[pri:10, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:26 IST" name="testClose" finished-at="2022-07-14T03:25:26 IST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:26 IST" name="initializeDriver" finished-at="2022-07-14T03:25:28 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:28 IST" name="openUrl" finished-at="2022-07-14T03:25:30 IST" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:30 IST" name="startTest" finished-at="2022-07-14T03:25:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.Cart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Cart()[pri:11, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:30 IST" name="Cart" finished-at="2022-07-14T03:25:37 IST" duration-ms="6899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:37 IST" name="testClose" finished-at="2022-07-14T03:25:37 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:37 IST" name="ResultTest" finished-at="2022-07-14T03:25:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cart status=SUCCESS method=Home_test.Cart()[pri:11, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:37 IST" name="initializeDriver" finished-at="2022-07-14T03:25:39 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:39 IST" name="openUrl" finished-at="2022-07-14T03:25:41 IST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Payment()[pri:12, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:41 IST" name="Payment" finished-at="2022-07-14T03:25:47 IST" duration-ms="6058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:41 IST" name="startTest" finished-at="2022-07-14T03:25:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Home_test.Payment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:47 IST" name="ResultTest" finished-at="2022-07-14T03:25:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment status=SUCCESS method=Home_test.Payment()[pri:12, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:25:47 IST" name="testClose" finished-at="2022-07-14T03:25:48 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Flipkart_selenium_tests.Home_test@4ee37ca3]" started-at="2022-07-14T03:27:52 IST" name="endReport" finished-at="2022-07-14T03:27:52 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Flipkart_selenium_tests.Home_test -->
+      <class name="com.Flipkart_selenium_tests.Flights_test">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:12 IST" name="initializeDriver" finished-at="2022-07-14T03:27:14 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:14 IST" name="openUrl" finished-at="2022-07-14T03:27:16 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:16 IST" name="startTest" finished-at="2022-07-14T03:27:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Flights_test.FlightTravel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="FlightTravel()[pri:20, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:16 IST" name="FlightTravel" finished-at="2022-07-14T03:27:22 IST" duration-ms="5790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTravel -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:22 IST" name="ResultTest" finished-at="2022-07-14T03:27:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FlightTravel status=SUCCESS method=Flights_test.FlightTravel()[pri:20, instance:com.Flipkart_selenium_tests.Flights_test@40c80397] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Flights_test@40c80397]" started-at="2022-07-14T03:27:22 IST" name="testClose" finished-at="2022-07-14T03:27:23 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.Flipkart_selenium_tests.Flights_test -->
+      <class name="com.Flipkart_selenium_tests.MoreOptions_test">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:48 IST" name="initializeDriver" finished-at="2022-07-14T03:25:49 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:49 IST" name="openUrl" finished-at="2022-07-14T03:25:51 IST" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:51 IST" name="startTest" finished-at="2022-07-14T03:25:51 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.MoreOptions_test.NotificationPreference() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="NotificationPreference()[pri:18, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:51 IST" name="NotificationPreference" finished-at="2022-07-14T03:25:56 IST" duration-ms="4809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationPreference -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:56 IST" name="testClose" finished-at="2022-07-14T03:25:56 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:56 IST" name="ResultTest" finished-at="2022-07-14T03:25:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NotificationPreference status=SUCCESS method=MoreOptions_test.NotificationPreference()[pri:18, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:56 IST" name="initializeDriver" finished-at="2022-07-14T03:25:58 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:25:58 IST" name="openUrl" finished-at="2022-07-14T03:26:00 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="customercare()[pri:19, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:26:00 IST" name="customercare" finished-at="2022-07-14T03:26:05 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customercare -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:26:00 IST" name="startTest" finished-at="2022-07-14T03:26:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.MoreOptions_test.customercare() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:26:05 IST" name="ResultTest" finished-at="2022-07-14T03:26:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customercare status=SUCCESS method=MoreOptions_test.customercare()[pri:19, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.MoreOptions_test@1fcb4808]" started-at="2022-07-14T03:26:05 IST" name="testClose" finished-at="2022-07-14T03:26:06 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.Flipkart_selenium_tests.MoreOptions_test -->
+      <class name="com.Flipkart_selenium_tests.Account_test">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:06 IST" name="initializeDriver" finished-at="2022-07-14T03:26:07 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:07 IST" name="openUrl" finished-at="2022-07-14T03:26:09 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:09 IST" name="startTest" finished-at="2022-07-14T03:26:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Account_test.Wishlist() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Wishlist()[pri:13, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:09 IST" name="Wishlist" finished-at="2022-07-14T03:26:20 IST" duration-ms="10643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wishlist -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:20 IST" name="testClose" finished-at="2022-07-14T03:26:20 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:20 IST" name="ResultTest" finished-at="2022-07-14T03:26:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Wishlist status=SUCCESS method=Account_test.Wishlist()[pri:13, instance:com.Flipkart_selenium_tests.Account_test@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:20 IST" name="initializeDriver" finished-at="2022-07-14T03:26:22 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:22 IST" name="openUrl" finished-at="2022-07-14T03:26:24 IST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Mychats()[pri:14, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:24 IST" name="Mychats" finished-at="2022-07-14T03:26:33 IST" duration-ms="9102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mychats -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:24 IST" name="startTest" finished-at="2022-07-14T03:26:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Account_test.Mychats() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:33 IST" name="ResultTest" finished-at="2022-07-14T03:26:33 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mychats status=SUCCESS method=Account_test.Mychats()[pri:14, instance:com.Flipkart_selenium_tests.Account_test@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:33 IST" name="testClose" finished-at="2022-07-14T03:26:34 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:34 IST" name="initializeDriver" finished-at="2022-07-14T03:26:35 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:35 IST" name="openUrl" finished-at="2022-07-14T03:26:37 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="MobileButton()[pri:15, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:37 IST" name="MobileButton" finished-at="2022-07-14T03:26:44 IST" duration-ms="6882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileButton -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:37 IST" name="startTest" finished-at="2022-07-14T03:26:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Account_test.MobileButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:44 IST" name="testClose" finished-at="2022-07-14T03:26:45 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:44 IST" name="ResultTest" finished-at="2022-07-14T03:26:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MobileButton status=SUCCESS method=Account_test.MobileButton()[pri:15, instance:com.Flipkart_selenium_tests.Account_test@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:45 IST" name="initializeDriver" finished-at="2022-07-14T03:26:46 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:46 IST" name="openUrl" finished-at="2022-07-14T03:26:48 IST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="SuperCoin()[pri:16, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:48 IST" name="SuperCoin" finished-at="2022-07-14T03:27:00 IST" duration-ms="11850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuperCoin -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:26:48 IST" name="startTest" finished-at="2022-07-14T03:26:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Account_test.SuperCoin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:00 IST" name="testClose" finished-at="2022-07-14T03:27:01 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:00 IST" name="ResultTest" finished-at="2022-07-14T03:27:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SuperCoin status=SUCCESS method=Account_test.SuperCoin()[pri:16, instance:com.Flipkart_selenium_tests.Account_test@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:01 IST" name="initializeDriver" finished-at="2022-07-14T03:27:02 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:02 IST" name="openUrl" finished-at="2022-07-14T03:27:04 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Grocery()[pri:17, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:04 IST" name="Grocery" finished-at="2022-07-14T03:27:12 IST" duration-ms="7759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grocery -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:04 IST" name="startTest" finished-at="2022-07-14T03:27:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Account_test.Grocery() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:12 IST" name="testClose" finished-at="2022-07-14T03:27:12 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Account_test@726e5805]" started-at="2022-07-14T03:27:12 IST" name="ResultTest" finished-at="2022-07-14T03:27:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Grocery status=SUCCESS method=Account_test.Grocery()[pri:17, instance:com.Flipkart_selenium_tests.Account_test@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+      </class> <!-- com.Flipkart_selenium_tests.Account_test -->
+      <class name="com.Flipkart_selenium_tests.Login_test">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:23 IST" name="initializeDriver" finished-at="2022-07-14T03:27:24 IST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:24 IST" name="openUrl" finished-at="2022-07-14T03:27:26 IST" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:26 IST" name="startTest" finished-at="2022-07-14T03:27:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Login_test.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Login()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:26 IST" name="Login" finished-at="2022-07-14T03:27:29 IST" duration-ms="2535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:29 IST" name="ResultTest" finished-at="2022-07-14T03:27:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Login_test.Login()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:29 IST" name="testClose" finished-at="2022-07-14T03:27:29 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:29 IST" name="initializeDriver" finished-at="2022-07-14T03:27:31 IST" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:31 IST" name="openUrl" finished-at="2022-07-14T03:27:33 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:33 IST" name="startTest" finished-at="2022-07-14T03:27:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Login_test.Invalid_Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Invalid_Login()[pri:1, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:33 IST" name="Invalid_Login" finished-at="2022-07-14T03:27:35 IST" duration-ms="2573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:35 IST" name="ResultTest" finished-at="2022-07-14T03:27:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_Login status=SUCCESS method=Login_test.Invalid_Login()[pri:1, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:35 IST" name="testClose" finished-at="2022-07-14T03:27:36 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:36 IST" name="initializeDriver" finished-at="2022-07-14T03:27:37 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:37 IST" name="openUrl" finished-at="2022-07-14T03:27:39 IST" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:39 IST" name="startTest" finished-at="2022-07-14T03:27:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Login_test.Otp_Login_button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Otp_Login_button()[pri:2, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:39 IST" name="Otp_Login_button" finished-at="2022-07-14T03:27:42 IST" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Otp_Login_button -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:42 IST" name="ResultTest" finished-at="2022-07-14T03:27:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Otp_Login_button status=SUCCESS method=Login_test.Otp_Login_button()[pri:2, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:42 IST" name="testClose" finished-at="2022-07-14T03:27:42 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:42 IST" name="initializeDriver" finished-at="2022-07-14T03:27:44 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:44 IST" name="openUrl" finished-at="2022-07-14T03:27:46 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:46 IST" name="startTest" finished-at="2022-07-14T03:27:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Flipkart_selenium_tests.Login_test.Logout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Logout()[pri:3, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:46 IST" name="Logout" finished-at="2022-07-14T03:27:51 IST" duration-ms="5027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:51 IST" name="testClose" finished-at="2022-07-14T03:27:52 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6]" started-at="2022-07-14T03:27:51 IST" name="ResultTest" finished-at="2022-07-14T03:27:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=Login_test.Logout()[pri:3, instance:com.Flipkart_selenium_tests.Login_test@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultTest -->
+      </class> <!-- com.Flipkart_selenium_tests.Login_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

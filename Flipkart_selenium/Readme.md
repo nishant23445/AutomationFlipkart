@@ -1,0 +1,94 @@
+# Flipkart Website Automation Suite Information:
+##### To run the Flipkart Automation Suite from command line in the project folder
+mvn clean test
+
+#### Testng files description
+* testng.xml: define the tests related to different pages across the site
+
+#### Packages description
+* com.Flipkart_selenium_Pages- Defining all the pages actions and the respective object repository.
+* com.Flipkart_selenium_utils- Defining all the utilities needed for the tests.
+* com.FLipkart_selenium_tests- Defining all the pages tests and assertions.
+
+#### Tests.java files description
+**Base_Test** : The main class which defines-
+* @BeforeMethod- to open the browser, to open url and get the name of the test
+* @AfterMethd- to attach screenshot and to quit the browser
+* @BeforeSuite- to set Extent
+* @AfterSuite- to end the report
+
+**Home_Test** : check functions on the homepage of Flipkart. Includes tests:
+* check Flipkart Logo. 
+* check ship button.
+* check cross Button to close the login dialogue box. 
+* check Seach Button.
+* check the sorting by popularity.
+* check Wholesale button.
+* check Paymenttton. 
+* check sellerRegistration Button.
+* check cart button present on Home page.
+
+**Account_Test** : check functions on the account section of Flipkart. 
+Includes tests:
+* check wishlist in my profile option.
+* check Mychats in my profile option.
+* click on mobile button.
+* check supercoinZone page by clicking supercoin button 
+* click on grocery button available after login on HomeScreen* click on mobile button  
+
+**Login_test** : Check login functionality by  entering mobilenumber and password and clicking login button present on dialogue box . 
+Includes tests:
+* check login with valid login credentials.
+* check login with Invalid login credentials.
+* check otp button
+* check logout button
+
+**MoreOptions_test** : checks the fuctionalities in more option present in home page .
+Includes tests:
+* check Notification button by clicking and redirect to notificationpreference page
+* check customerService button by clicking and redirect to customerservice page.
+
+**Flight_test** : check the flight button and the serch button in flight page.
+#### Drivers Folder description:
+
+* chromedriver.exe : drivers for chrome
+* geckodriver.exe : drivers for firefox
+* msedgedriver.exe: drivers for microsoft edge
+
+
+#### Other files description
+* **Screenshots.java** : defines functions to take screenshots
+* **confi.properties** : placed under "./Resources/config.properties". By changing the value of "chooseDriver" and "mode" you can run the project on different browsers:
+
+** For firefox without headless mode** : chooseDriver= "FireFoxDriver"  and mode="normal"
+
+**For chrome in headless mode** : chooseDriver= "ChromeDriver"  and mode="Headless"
+
+** For chrome without headless mode** : chooseDriver= "ChromeDriver"  and mode="normal"
+
+** For Microsoft Edge without headless mode** : chooseDriver="MicrosoftEdge" and there is no option for headless mode
+
+
+* **ExcelFile
+
+#### Reports 
+* Extent report gets generated after the run under ./Reports/ExtentReports.html.
+* TestNG report as "emailable-report.html" gets generated under /test-output.
+
+#### FailedScreenshots
+* Failed Screenshots gets placed under /FailedScreenshots
+ 
+ 
+## Implemented features
+
+-	Create at least 20 automated Test Case across different flows and screens - **done** 
+-	Implement POM - **done**
+-	Test data should be read from excel. User has the ability to selective run the test cases by marking yes 	in the Execution Required field in excel - **done**  
+-	Global Parameters should be read from config file like browser name, test site URL, global wait value etc. 	should be read from a properties file - **done** 
+-	Use proper waits i.e. implicit wait and explicit wait wherever necessary.- **done**  
+-	The test should run on following browsers IE, Chrome, FF - **done** 
+-	There should be an option to run the test cases in headless mode - **done**  
+-	Put proper assertions and error screenshot in the extent report - **done** 
+-	Create reusable libraries and import these as jars in the current project - **done** 
+-	Create a ReadMe document which has the steps to install and run the code - **done**
+ 
