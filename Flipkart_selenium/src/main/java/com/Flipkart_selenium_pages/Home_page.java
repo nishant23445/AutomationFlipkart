@@ -102,7 +102,7 @@ public class Home_page {
 		cancel.click();
 		sellerButton.click();
 		sellerNumber.sendKeys(number);
-		RegisterButton.click();
+		//RegisterButton.click();
 	}
 
 	public void wholesale() {
