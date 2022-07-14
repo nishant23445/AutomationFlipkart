@@ -9,8 +9,8 @@
           <include name="endReport"/>
           <include name="initializeDriver"/>
           <include name="openUrl"/>
+          <include name="ship"/>
           <include name="setExtent"/>
-          <include name="Cart"/>
           <include name="ResultTest"/>
           <include name="testClose"/>
         </methods>
