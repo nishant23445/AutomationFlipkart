@@ -16,7 +16,9 @@ mvn clean test
 		
 ## Screenshots 
 ![Jenkins Setup](./photo/Screenshot3.png)
+
 ![Jenkins Setup](./photo/Screenshot1.png)
+
 ![Jenkins Setup](./photo/Screenshot2.png)
 
 #### Packages description
@@ -80,7 +82,9 @@ Includes tests:
 
 ** For chrome without headless mode** : chooseDriver= "ChromeDriver"  and mode="normal"
 
-** For Microsoft Edge without headless mode** : chooseDriver="MicrosoftEdge" and there is no option for headless mode
+** For Microsoft Edge without headless mode** : chooseDriver="MicrosoftEdge" and mode="normal"
+
+** For Microsoft Edge without headless mode** : chooseDriver="MicrosoftEdge" and mode="Headless"
 
 
 * **ExcelFile
