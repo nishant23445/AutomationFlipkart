@@ -12,7 +12,9 @@ mvn clean test
 		java -jre jenkins.war
 		
 ## Screenshots 
-
+![Jenkins Setup](./photo/Screenshot3.png)
+![Jenkins Setup](./photo/Screenshot1.png)
+![Jenkins Setup](./photo/Screenshot2.png)
 
 #### Packages description
 * com.Flipkart_selenium_Pages- Defining all the pages actions and the respective object repository.
@@ -90,14 +92,17 @@ Includes tests:
  
 ## Implemented features
 
--	Create at least 20 automated Test Case across different flows and screens - **done** 
--	Implement POM - **done**
--	Test data should be read from excel. User has the ability to selective run the test cases by marking yes 	in the Execution Required field in excel - **done**  
--	Global Parameters should be read from config file like browser name, test site URL, global wait value etc. 	should be read from a properties file - **done** 
--	Use proper waits i.e. implicit wait and explicit wait wherever necessary.- **done**  
--	The test should run on following browsers IE, Chrome, FF - **done** 
--	There should be an option to run the test cases in headless mode - **done**  
--	Put proper assertions and error screenshot in the extent report - **done** 
--	Create reusable libraries and import these as jars in the current project - **done** 
--	Create a ReadMe document which has the steps to install and run the code - **done**
- 
+-	Create at least 20 automated Test Case across different flows and screens. - **done**
+-	Implement POM (Page factory)  - **done**
+-	Test data should be read from excel. User has the ability to selective run the test cases by marking yes in the "Execution Required" field in excel. - **done**
+-	Use config files for Global Parameters usage. - **done**
+-	Use proper waits i.e., implicit wait and explicit wait wherever necessary. - **done**
+-	The test should run on following browsers IE, Chrome, FF. - **done**
+-	There should be an option to run the test cases in headless mode. - **done**
+-	Use Grouping, Priority, and enable/disable when creating the TestNG Test Cases. - **done**
+-	Assertions should be used properly throughout the suite. - **done**
+-	Put proper assertions and error screenshot in the extent report. - **done**
+-	Create a ReadMe document which has the steps to install and run the code. - **done**
+-	Integrate your test suite with Jenkins and GitHub for CI/CD part. - **done**
+-	Test Suite should be executable from command line using maven. - **done**
+-	Use Logger to implement logging in your test cases. - **done**

@@ -132,4 +132,14 @@
  2022-07-14 16:48:01,003  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
  2022-07-14 16:48:05,026  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  2022-07-14 16:48:05,037  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 18:37:49,069  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 18:37:49,085  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 18:38:34,537  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 18:38:34,552  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 18:39:35,974  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 18:39:35,990  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 18:41:38,695  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 18:41:38,723  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 18:43:07,169  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 18:43:07,198  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
  

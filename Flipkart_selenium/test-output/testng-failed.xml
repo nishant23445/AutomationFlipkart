@@ -6,10 +6,10 @@
       <class name="com.Flipkart_selenium_tests.Home_test">
         <methods>
           <include name="startTest"/>
-          <include name="search"/>
           <include name="endReport"/>
           <include name="initializeDriver"/>
           <include name="openUrl"/>
+          <include name="Seller_Register"/>
           <include name="setExtent"/>
           <include name="ResultTest"/>
           <include name="testClose"/>
