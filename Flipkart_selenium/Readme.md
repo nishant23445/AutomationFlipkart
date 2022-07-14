@@ -13,6 +13,7 @@ mvn clean test
 1. Install Jenkins.war
 2. open cmd with jenkins path and write :
 		java -jre jenkins.war
+3 setup Jenkins
 		
 ## Screenshots 
 ![Jenkins Setup](./photo/Screenshot3.png)
