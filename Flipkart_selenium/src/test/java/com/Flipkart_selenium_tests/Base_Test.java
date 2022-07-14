@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
 import com.Flipkart_selenium_utils.ExcelFileIO;
-import com.ReusableMethod.utils.Screenshots;
+import com.Flipkart_selenium_utils.Screenshots;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -45,7 +45,7 @@ public class Base_Test {
         reader = new ExcelFileIO("./Resources/TestData.xlsx");
     }
 
-    Screenshots Screenshots = new Screenshots();
+    //Screenshots Screenshots = new Screenshots();
     
     static {
         String log4jConfigFile = System.getProperty("user.dir")
