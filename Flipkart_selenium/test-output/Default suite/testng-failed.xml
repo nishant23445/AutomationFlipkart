@@ -3,10 +3,10 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Flipkart_selenium_tests.Flights_test">
+      <class name="com.Flipkart_selenium_tests.Home_test">
         <methods>
-          <include name="FlightTravel"/>
           <include name="startTest"/>
+          <include name="search"/>
           <include name="endReport"/>
           <include name="initializeDriver"/>
           <include name="openUrl"/>
@@ -14,7 +14,7 @@
           <include name="ResultTest"/>
           <include name="testClose"/>
         </methods>
-      </class> <!-- com.Flipkart_selenium_tests.Flights_test -->
+      </class> <!-- com.Flipkart_selenium_tests.Home_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

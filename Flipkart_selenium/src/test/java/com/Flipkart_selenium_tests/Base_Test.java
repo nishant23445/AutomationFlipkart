@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -92,7 +93,7 @@ public class Base_Test {
 
 		// Code for Chrome Driver with or without Headless Mode
 
-		if (DriverBrowser.equals("ChromeDriver")) {
+		if (DriverBrowser.toLowerCase().equals("chromedriver")) {
 			//System.setProperty(prop.getProperty("chromeDriverProperty"), prop.getProperty("chromeDriverPath"));
 			WebDriverManager.chromedriver().setup();
 			if (Select.equals("Headless")) {
@@ -105,18 +106,30 @@ public class Base_Test {
 			}
 		}
 		// Code for FireFox Driver without Headless Mode
-		if (DriverBrowser.equals("FireFoxDriver")) {
+		if (DriverBrowser.toLowerCase().equals("firefoxdriver")) {
 			//System.out.println(prop.getProperty("firefoxDriverPath"));
 			//System.setProperty(prop.getProperty("firefoxDriverProperty"), prop.getProperty("firefoxDriverPath"));
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-		// MicrosoftEdge Does not Support Headless Mode
-		if (DriverBrowser.equals("MicrosoftEdge")) {
+		
+		
+		// MicrosoftEdge Driver with or without Headless Mode
+		if (DriverBrowser.toLowerCase().equals("MicrosoftEdge")) {
 //			System.setProperty(prop.getProperty("microsoftEdgeDriverProperty"),
 //					prop.getProperty("microsoftEdgeDriverPath"));
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			if (Select.toLowerCase().equals("headless")) {
+                EdgeOptions options = new EdgeOptions();
+                options.addArguments("window-size= 1920, 1080");
+                options.addArguments("--headless");
+                driver = new EdgeDriver(options);
+            } else {
+
+
+                driver = new EdgeDriver();
+            }
+			
 		}
 
 		driver.manage().window().maximize();

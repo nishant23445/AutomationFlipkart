@@ -2,6 +2,8 @@
 ##### To run the Flipkart Automation Suite from command line in the project folder
 mvn clean test
 
+## GitHub Repository link 
+*  https://github.com/nishant23445/AutomationFlipkart.git
 #### Testng files description
 * testng.xml: define the tests related to different pages across the site
 
