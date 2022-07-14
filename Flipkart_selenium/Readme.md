@@ -4,9 +4,12 @@ mvn clean test
 
 ## GitHub Repository link 
 *  https://github.com/nishant23445/AutomationFlipkart.git
+
 #### Testng files description
 * testng.xml: define the tests related to different pages across the site
-## To Run with Jenkins 
+
+
+## Jenkins ( Run with jenkins )  
 1. Install Jenkins.war
 2. open cmd with jenkins path and write :
 		java -jre jenkins.war
