@@ -2,6 +2,15 @@
 ##### To run the Flipkart Automation Suite from command line in the project folder
 mvn clean test
 
+##### To run the test cases from command line -
+* open the project location where pom file is placed
+* open cmd for that path
+* run command mvn test or mvn clean install
+
+ -----------------**OR**--------------
+
+  Double click on batchfile.bat
+
 ## GitHub Repository link 
 *  https://github.com/nishant23445/AutomationFlipkart.git
 

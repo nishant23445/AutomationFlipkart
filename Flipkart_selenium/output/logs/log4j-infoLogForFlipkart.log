@@ -256,4 +256,6 @@
  2022-07-14 23:00:48,186  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
  2022-07-14 23:00:51,979  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  2022-07-14 23:00:51,985  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ 2022-07-14 23:12:05,567  INFO [main] WebDriverManager:632 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ 2022-07-14 23:12:05,581  INFO [main] WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\nishant\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
  
